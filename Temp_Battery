@@ -110,8 +110,8 @@ void loop()
   // Save new temperatures for next compare
   lastTemperature[i]=temperature;
   }
-  
-	// get the battery Voltage
+  }
+  // get the battery Voltage
   int sensorValue = analogRead(BATTERY_SENSE_PIN);
   #ifdef MY_DEBUG
   Serial.println(sensorValue);
@@ -138,7 +138,6 @@ void loop()
   // Power up radio after sleep
   sendBatteryLevel(batteryPcnt);
   oldBatteryPcnt = batteryPcnt;
-  }
   }
   sleep(SLEEP_TIME);
 }
