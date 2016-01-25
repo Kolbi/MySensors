@@ -21,7 +21,9 @@
  * DESCRIPTION
  *
  * Temperature Sensor with Battery Meter
- * 
+ * Alternative Battery calculation https://codebender.cc/sketch:158460#Soil%20moisture%20for%20houseplants%20-%20with%20alternating%20polarity.ino
+ * sketch sends voltage (S_CUSTOM, V_VOLTAGE) and percentage
+ * maybe modify with sendBatteryLevel (uint8_t value)
  */
 
 // Enable debug prints to serial monitor
