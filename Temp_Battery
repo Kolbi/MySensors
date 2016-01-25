@@ -24,6 +24,8 @@
  * Alternative Battery calculation https://codebender.cc/sketch:158460#Soil%20moisture%20for%20houseplants%20-%20with%20alternating%20polarity.ino
  * sketch sends voltage (S_CUSTOM, V_VOLTAGE) and percentage
  * maybe modify with sendBatteryLevel (uint8_t value)
+ * Alternative voltage divider http://forum.mysensors.org/topic/2866/battery-percentage-help-needed/12
+ * Vmin 1.9 Vmax 3.0
  */
 
 // Enable debug prints to serial monitor
